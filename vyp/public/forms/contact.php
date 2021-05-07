@@ -17,14 +17,13 @@
   $contact->subject = $_POST['subject'];
 
 
-  $contact->smtp = array(
-    'host' => 'smtp.office365.com',
-    'username' => 'volkanvyil.work@outlook.dk',
-    'password' => 'Mormorersej66',
-    'port' => '587'
-    'encryption' => 'STARTTLS'
-  );
-
+  /* $contact->smtp = array(
+    'host' => '',
+    'username' => '',
+    'password' => '',
+    'port' => ''
+    'encryption' => ''
+  ); */
 
   $contact->add_message( $_POST['name'], 'From');
   $contact->add_message( $_POST['email'], 'Email');
