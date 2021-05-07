@@ -22,6 +22,7 @@
     'username' => 'volkanvyil.work@outlook.dk',
     'password' => 'Mormorersej66',
     'port' => '587'
+    'encryption' => 'STARTTLS'
   );
 
 
