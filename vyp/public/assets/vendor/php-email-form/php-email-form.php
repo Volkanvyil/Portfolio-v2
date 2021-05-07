@@ -152,12 +152,12 @@ class PHP_Email_Form {
       // Check and set SMTP
       if( is_array( $this->smtp) ) {
         $mail->isSMTP();
-        $mail->Host = $this->smtp['host'];
+        $mail->Host = $this->smtp['smtp.office365.com'];
         $mail->SMTPAuth = true;
-        $mail->Username = $this->smtp['username'];
-        $mail->Password = $this->smtp['password'];
-        $mail->Port = $this->smtp['port'];
-        $mail->SMTPSecure = $this->smtp['encryption'];
+        $mail->Username = $this->smtp['volkanvyil.work@outlook.dk'];
+        $mail->Password = $this->smtp['Mormorersej66'];
+        $mail->Port = $this->smtp['587'];
+        $mail->SMTPSecure = $this->smtp['STARTTLS'];
       }
 
       // Headers
